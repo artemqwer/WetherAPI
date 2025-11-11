@@ -1,0 +1,54 @@
+/* Загальні стилі сторінки */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #eef2f3;
+  color: #333;
+  text-align: center;
+  margin: 0;
+  padding: 40px;
+}
+
+/* Заголовок */
+h1 {
+  color: #222;
+  margin-bottom: 30px;
+}
+
+/* Поле вводу */
+input[type="text"] {
+  padding: 10px;
+  font-size: 16px;
+  width: 250px;
+  border: 1px solid #aaa;
+  border-radius: 6px;
+  outline: none;
+}
+
+/* Кнопка */
+button {
+  padding: 10px 16px;
+  font-size: 16px;
+  border: none;
+  border-radius: 6px;
+  background-color: #2196f3;
+  color: white;
+  cursor: pointer;
+  margin-left: 10px;
+  transition: background-color 0.2s ease;
+}
+
+button:hover {
+  background-color: #1976d2;
+}
+
+/* Блок результату */
+#result {
+  margin-top: 25px;
+  white-space: pre-line; /* щоб \n у JS перетворювались на новий рядок */
+  font-size: 18px;
+  background-color: white;
+  display: inline-block;
+  padding: 15px 25px;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
